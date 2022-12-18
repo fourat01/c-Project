@@ -120,7 +120,7 @@ typedef struct
 // intitialisation des données dans le tableau d'enreg
 livre liv[20] = {{"Safi saied", "Safi saied", {17, 3, 2008}, {"Politique", "row 6", 1, 13}},
                  {"David abraham", "David abraham", {30, 7, 2022}, {"ooooooo", "row 3", 2, 0}},
-                 {"David abraham", "David abraham", {23, 3, 2001}, {"zzzzz", "row 19", 3, 1}}};
+                 {"Ahmed Ahmed", "Ahmed Ahmed", {23, 3, 2001}, {"zzzzz", "row 19", 3, 1}}};
 int taille_liv = 3;
 
 typedef struct
@@ -128,9 +128,9 @@ typedef struct
     int freq;
     docs docs3;
 } magazine;
-magazine mag[20] = {{7, {"aaaa", "row 400", 1, 4}},
-                    {3, {"oooo", "row 36", 2, 47}},
-                    {9, {"zzzzz", "row 17", 3, 20}}};
+magazine mag[20] = {{7, {"mag1", "row 400", 1, 4}},
+                    {3, {"mag2", "row 36", 2, 47}},
+                    {9, {"mag3", "row 17", 3, 20}}};
 int taille_mag = 3;
 // test on date
 int verif_day(int d)
